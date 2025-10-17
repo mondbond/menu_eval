@@ -1,0 +1,64 @@
+prompt_name: detailed
+versions:
+  - version: 1
+    alias: base
+    description: Detailed prompt with example of expected output
+    template: |
+      In given image parse me the drinks from menu in structured json format provided.
+      {"drinks":
+      [
+      {
+      "item": "drink name",
+      "price": 100,
+      "volume": 0.3
+      },
+      {
+      "item": "drink name",
+      "price": 43.0,
+      "volume": 0.5
+      },
+      {
+      "item": "drink name",
+      "price": null
+      "volume": null
+      }
+      ]
+      }
+      Return only json, nothing else. If you can not identify volume or price of the drink - set it to null.
+      
+      Think step by step in identification of drinks, identifying witch price and volume relate to witch drink.
+      Follow next rules in identifying drinks and parsing them to json:
+        1. Item in response should be atomic. 
+      If there are multiple drinks separated by comma in the drink name title - you need to create separate item entity in json for each with the same volume and price.
+        example:
+            Drink name1, Drink name2 - 0.3l - $5
+          example output 
+            {
+              "item": "Drink name1",
+              "price": 5,
+              "volume": 0.3
+            },
+            {
+              "item": "Drink name2",
+              "price": 5,
+              "volume": 0.3
+            }
+      
+        2. Price depends from volume and there can be multiple prices for the same drink name with different volume. You need to provide atomic item in json for each volume and price configuration.
+      Sometimes one drink name on menu can have multiple prices and volumes configuration. You need to create separate item entity in json for each configuration with the same drink name.
+         example:
+            Drink name 0.3l - $5, 0.5l - $8
+          example output 
+            {
+              "item": "Drink name",
+              "price": 5,
+              "volume": 0.3
+            },
+            {
+              "item": "Drink name",
+              "price": 8,
+              "volume": 0.5
+            }
+      
+      
+      Image is:

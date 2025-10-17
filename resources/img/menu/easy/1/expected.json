@@ -1,0 +1,114 @@
+{
+  "drinks": [
+    {
+      "item": "PILSNER URQUELL",
+      "price": 36,
+      "volume": null
+    },
+    {
+      "item": "PILSNER URQUELL",
+      "price": 49,
+      "volume": null
+    },
+    {
+      "item": "GAMBRINUS 12",
+      "price": 29,
+      "volume": 0.5
+    },
+    {
+      "item": "GAMBRINUS 12",
+      "price": 39,
+      "volume": 0.5
+    },
+    {
+      "item": "GAMBRINUS 10",
+      "price": 28,
+      "volume": 0.3
+    },
+    {
+      "item": "GAMBRINUS 10",
+      "price": 38,
+      "volume": 0.5
+    },
+    {
+      "item": "LAHVOVÝ BIRELL SVĚTLÝ",
+      "price": 39,
+      "volume": 0.5
+    },
+    {
+      "item": "LAHVOVÝ BIRELL POLOTMAVÝ",
+      "price": 39,
+      "volume": 0.5
+    },
+    {
+      "item": "OVOCNÉ PIVO DLE DENNÍ NABÍDKY",
+      "price": 39,
+      "volume": 0.5
+    },
+    {
+      "item": "FRISCO CIDER",
+      "price": 48,
+      "volume": 0.33
+    },
+    {
+      "item": "KOFOLA",
+      "price": 31,
+      "volume": 0.3
+    },
+    {
+      "item": "KOFOLA",
+      "price": 37,
+      "volume": 0.5
+    },
+    {
+      "item": "PEPSI COLA KLASIK, BEZ CUKRU",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "MIRINDA",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "7UP",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "TONIC",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "TONIC PINK",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "VODA",
+      "price": 33,
+      "volume": 0.3
+    },
+    {
+      "item": "GATORADE",
+      "price": 46,
+      "volume": 0.5
+    },
+    {
+      "item": "TOMA NEKTARY",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "LIPTON",
+      "price": 39,
+      "volume": 0.25
+    },
+    {
+      "item": "ENERGY DRINK",
+      "price": 59,
+      "volume": 0.25
+    }
+  ]
+}

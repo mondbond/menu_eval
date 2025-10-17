@@ -1,0 +1,24 @@
+[project]
+name = "menu-eval"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "IvanBahrii",email = "Ivan.Bahrii@sainsburys.co.uk"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "boto3 (>=1.40.50,<2.0.0)",
+    "langchain (>=0.3.27,<0.4.0)",
+    "langgraph (>=0.6.10,<0.7.0)",
+    "trulens (>=2.4.1,<3.0.0)",
+    "pydantic (>=2.0,<3.0)",
+    "langchain-aws (>=0.2.35,<0.3.0)",
+    "langchain-ollama (>=0.3.10,<0.4.0)",
+    "matplotlib (>=3.10.7,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

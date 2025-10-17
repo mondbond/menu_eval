@@ -1,0 +1,37 @@
+prompt_name: base_menu
+versions:
+  - version: 0
+    alias: base
+    description: Initial version of menu search prompt. It's done bad by design
+    template: |
+      In given image parse me the drinks from menu in structured json format provided.
+      Image: {image}
+  - version: 1
+    alias: with example
+    description: Added example of expected output
+    template: |
+      In given image parse me the drinks from menu in structured json format provided.
+    
+      Here is the structure of json u need to follow:
+      {"drinks":
+      [
+      {
+      "item": "drink name",
+      "price": 100,
+      "volume": 0.3
+      },
+      {
+      "item": "drink name",
+      "price": 43.0,
+      "volume": 0.5
+      },
+      {
+      "item": "drink name",
+      "price": null
+      "volume": null
+      }
+    
+        ]
+        }
+      Return only json, nothing else. If you can not identify volume or price of the drink - set it to null.
+      Image is:

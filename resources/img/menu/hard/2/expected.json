@@ -1,0 +1,173 @@
+{
+  "drinks": [
+    {
+      "item": "limon",
+      "price": 55,
+      "volume": 0.3
+    },
+    {
+      "item": "limon",
+      "price": 69,
+      "volume": 0.5
+    },
+    {
+      "item": "pepsi cola",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "pepsi cola",
+      "price": 69,
+      "volume": 0.5
+    },
+    {
+      "item": "pepsi zero",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "pepsi zero",
+      "price": 69,
+      "volume": 0.5
+    },
+
+    {
+      "item": "mirinda",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "mirinda",
+      "price": 69,
+      "volume": 0.5
+    },
+
+    {
+      "item": "7UP",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "7UP",
+      "price": 69,
+      "volume": 0.5
+    },
+
+    {
+      "item": "Schweppes",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "Schweppes",
+      "price": 69,
+      "volume": 0.5
+    },
+
+
+    {
+      "item": "jable",
+      "price": 59,
+      "volume": 0.3
+    },
+    {
+      "item": "jable",
+      "price": 69,
+      "volume": 0.5
+    },
+
+    {
+      "item": "pepsi cola s mir",
+      "price": 59,
+      "volume": 0.3
+    },
+
+
+    {
+      "item": "pepsi cola s mir",
+      "price": 69,
+      "volume": 0.5
+    },
+
+    {
+      "item": "Aquila",
+      "price": 59,
+      "volume": 0.33
+    },
+
+
+    {
+      "item": "Aquila",
+      "price": 109,
+      "volume": 0.75
+    },
+
+
+    {
+      "item": "Mattoni grand",
+      "price": 59,
+      "volume": 0.33
+    },
+
+
+    {
+      "item": "Mattoni grand",
+      "price": 109,
+      "volume": 0.75
+    },
+
+    {
+      "item": "pepsi zero",
+      "price": 59,
+      "volume": 0.33
+    },
+
+    {
+      "item": "ginger ale",
+      "price": 59,
+      "volume": 0.25
+    },
+
+
+    {
+      "item": "granini",
+      "price": 59,
+      "volume": 0.25
+    },
+
+
+    {
+      "item": "s vodou",
+      "price": 70,
+      "volume": 0.5
+    },
+
+
+    {
+      "item": "zdrav",
+      "price": 99,
+      "volume": 0.4
+    },
+
+    {
+      "item": "rockstar",
+      "price": 59,
+      "volume": 0.25
+    },
+    {
+      "item": "karafa",
+      "price": 55,
+      "volume": 0.5
+    },
+    {
+      "item": "karafa",
+      "price": 85,
+      "volume": 1
+    },
+    {
+      "item": "lipton",
+      "price": 59,
+      "volume": 0.25
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "drinks": [
+    {
+      "item": "cinzano bianco",
+      "price": 55,
+      "volume": 0.1
+    },
+    {
+      "item": "martini dry",
+      "price": 55,
+      "volume": 0.1
+    },
+    {
+      "item": "campari",
+      "price": 65,
+      "volume": 0.05
+    },
+    {
+      "item": "crodino",
+      "price": 55,
+      "volume": 0.1
+    },
+    {
+      "item": "aperol spritz",
+      "price": 119,
+      "volume": null
+    },
+    {
+      "item": "campari spritz",
+      "price": 99,
+      "volume": null
+    },
+    {
+      "item": "hugo spritz",
+      "price": 119,
+      "volume": null
+    },
+    {
+      "item": "kozi",
+      "price": 99,
+      "volume": null
+    },
+    {
+      "item": "cuba libre",
+      "price": 119,
+      "volume": null
+    },
+    {
+      "item": "Kofola origin",
+      "price": 55,
+      "volume": 0.5
+    },
+    {
+      "item": "Kofola origin",
+      "price": 39,
+      "volume": 0.3
+    },
+    {
+      "item": "pepsi",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "7UP",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "Mirinda",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "tonic",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "tonic pink",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "mattoni",
+      "price": 39,
+      "volume": 0.33
+    },
+    {
+      "item": "grand mattoni",
+      "price": 79,
+      "volume": 0.75
+    },
+    {
+      "item": "granini",
+      "price": 59,
+      "volume": 0.2
+    },
+    {
+      "item": "nealko pivo",
+      "price": 49,
+      "volume": 0.5
+    },
+    {
+      "item": "ledov",
+      "price": 49,
+      "volume": 0.25
+    },
+    {
+      "item": "karafa",
+      "price": 59,
+      "volume": 1
+    },
+    {
+      "item": "soda",
+      "price": 25,
+      "volume": 0.3
+    },
+    {
+      "item": "voda",
+      "price": 25,
+      "volume": 0.3
+    },
+    {
+      "item": "Birell",
+      "price": 45,
+      "volume": 0.3
+    }
+  ]
+}

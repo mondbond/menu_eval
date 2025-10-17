@@ -1,0 +1,119 @@
+{
+  "drinks": [
+    {
+      "item": "PILSNER URQUELL",
+      "price": 32.0,
+      "volume": 0.25
+    },
+    {
+      "item": "PILSNER URQUELL",
+      "price": 36.0,
+      "volume": 0.3
+    },
+    {
+      "item": "PILSNER URQUELL",
+      "price": 49.0,
+      "volume": 0.5
+    },
+    {
+      "item": "GAMBRINUS 12°",
+      "price": 29.0,
+      "volume": 0.3
+    },
+    {
+      "item": "GAMBRINUS 12°",
+      "price": 39.0,
+      "volume": 0.5
+    },
+    {
+      "item": "GAMBRINUS 10°",
+      "price": 28.0,
+      "volume": 0.3
+    },
+    {
+      "item": "GAMBRINUS 10°",
+      "price": 38.0,
+      "volume": 0.5
+    },
+    {
+      "item": "LAHVOVÝ BIRELL SVĚTLÝ",
+      "price": 39.0,
+      "volume": 0.5
+    },
+    {
+      "item": "LAHVOVÝ BIRELL POLOTMAVÝ",
+      "price": 39.0,
+      "volume": 0.5
+    },
+    {
+      "item": "OVOCNÉ PIVO DLE DENNÍ NABÍDKY",
+      "price": 39.0,
+      "volume": 0.5
+    },
+    {
+      "item": "FRISCO CIDER, BRUSNINA",
+      "price": 48.0,
+      "volume": 0.33
+    },
+    {
+      "item": "KOFOLA",
+      "price": 31.0,
+      "volume": 0.3
+    },
+    {
+      "item": "KOFOLA",
+      "price": 37.0,
+      "volume": 0.5
+    },
+    {
+      "item": "PEPSI COLA KLASIK, BEZ CUKRU",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "MIRINDA",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "7UP",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "TONIC",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "TONIC ZÁZVOR / TONIC PINK",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "VODA PERLIVÁ, NEPERLIVÁ, JEMNĚ PERLIVÁ",
+      "price": 33.0,
+      "volume": 0.3
+    },
+    {
+      "item": "GATORADE COOL BLUE RASPBERRY",
+      "price": 46.0,
+      "volume": 0.5
+    },
+    {
+      "item": "TOMA NEKTARY",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "LEDOVÉ ČAJE LIPTON ZELENÝ",
+      "price": 39.0,
+      "volume": 0.25
+    },
+    {
+      "item": "ENERGY DRINK",
+      "price": 59.0,
+      "volume": 0.25
+    }
+  ]
+}
