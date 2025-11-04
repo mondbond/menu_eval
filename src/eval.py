@@ -98,10 +98,8 @@ if __name__ == "__main__":
 
   # expected = "/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/expected.json"
   actuals = [
-  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/anthropic.claude-3-sonnet-20240229-v1:0/detailed/1/actual.json", "claude-3-sonnet"),
-  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/us.anthropic.claude-3-5-sonnet-20241022-v2:0/detailed/1/actual.json", "claude-3-5-sonnet"),
-  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/amazon.nova-lite-v1:0/detailed/1/actual.json", "nova-lite"),
-  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/us.amazon.nova-premier-v1:0/detailed/1/actual.json" , "nova-premier")
+  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/anthropic.claude-3-sonnet-20240229-v1:0/detailed_polished/1/actual.json", "claude-3-sonnet"),
+  ("/Users/ibahr/projects/menu_eval/resources/img/menu/hard/2/model_output/us.anthropic.claude-3-5-sonnet-20241022-v2:0/detailed_polished/1/actual.json", "claude-3-5-sonnet"),
   ]
 
   draw_bars(run_item_eval(expected, actuals), 'hard_case_detailed_prompt.png')

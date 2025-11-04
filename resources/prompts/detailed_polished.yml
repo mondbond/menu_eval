@@ -1,0 +1,52 @@
+prompt_name: detailed_polished
+versions:
+  - version: 1
+    alias: base
+    description: Detailed prompt with example of expected output
+    template: |
+      You are an expert OCR and menu extraction system. Your task is to extract drinks, their volumes, and prices from a menu image and return a strictly structured JSON. Follow these instructions:
+      
+      1. Parse drinks **atomically**: if multiple drink names appear together separated by commas, create separate JSON entries for each with the same volume and price.
+        Example:
+          "Drink1, Drink2 - 0.3l - $5"
+          Output:
+          {
+            "item": "Drink1",
+            "price": 5,
+            "volume": 0.3
+          },
+          {
+            "item": "Drink2",
+            "price": 5,
+            "volume": 0.3
+          }
+      
+      2. Parse multiple price/volume configurations separately: if a drink has different prices for different volumes, create separate JSON entries for each.
+        Example:
+          "Drink1 0.3l - $5, 0.5l - $8"
+          Output:
+          {
+            "item": "Drink1",
+            "price": 5,
+            "volume": 0.3
+          },
+          {
+            "item": "Drink1",
+            "price": 8,
+            "volume": 0.5
+          }
+        
+        3. If a price or volume cannot be determined, set the value to null.
+              
+      4. Step-by-step reasoning:
+        - Extract all drink names.
+        - Extract volumes and prices.
+        - Match prices and volumes to drinks correctly.
+        - Return structured JSON only.
+      
+      5. Output rules:
+        - Return strictly valid JSON.
+        - Do not include explanations, comments, or extra text.
+        - Ensure each drink entry has "item" (string), "price" (number or null), and "volume" (number in liters or null).
+      
+      Image: 
